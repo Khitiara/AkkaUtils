@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <AssemblyName>Khitiara.AkkaUtils</AssemblyName>
+        <RootNamespace>Khitiara.AkkaUtils</RootNamespace>
+        <PackageId>Khitiara.AkkaUtils</PackageId>
+        <Authors>Khitiara</Authors>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Akka Actor Interface Proxy Builder</Title>
+        <Description>Generates at runtime proxy implementations of interfaces which forward methods to an Akka actor through specified message types</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Akka" Version="1.4.21" />
+      <PackageReference Include="System.Reflection.Emit" Version="4.7.0" />
+    </ItemGroup>
+
+</Project>
