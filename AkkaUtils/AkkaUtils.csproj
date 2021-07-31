@@ -10,6 +10,9 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>Akka Actor Interface Proxy Builder</Title>
         <Description>Generates at runtime proxy implementations of interfaces which forward methods to an Akka actor through specified message types</Description>
+        <PackageProjectUrl>https://github.com/Khitiara/AkkaUtils</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/Khitiara/AkkaUtils/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/Khitiara/AkkaUtils</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
